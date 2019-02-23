@@ -1,0 +1,13 @@
+
+
+
+.div__myGroups { grid-area: body; }
+.div__body {
+    margin: auto;
+    width: 60%;
+    padding: 10px; 
+  }
+button{
+  
+  font-weight: bold;
+}

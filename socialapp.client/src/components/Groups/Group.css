@@ -1,0 +1,49 @@
+.block__groupDetails{
+}
+.block__group{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.block__groupNameLabel{
+    padding-right: 10px;
+}
+.block__groupName{
+    font-weight: bold;
+}
+.block__ownerLabel{
+    padding-right: 10px;
+}
+.block__owner{
+    font-weight: bold;
+}
+.block__owner__button{
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    display: inherit;
+    text-align: left;
+    font-size: 15px;
+   
+}
+.block__owner__button:focus {
+    outline:0;
+}
+.block__location{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.block__locationLabel{
+    padding-right: 10px;
+}
+.block__locationName{
+    font-weight: bold;
+}
+.block__details__button{
+    text-align: right;
+}
+.block__button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    text-align: right;
+}

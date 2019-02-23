@@ -1,0 +1,53 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/auth/users/",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 50750
+        }
+      ],
+      "UpstreamPathTemplate": "/auth/",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/app/groups?id={id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 50730
+        }
+      ],
+      "UpstreamPathTemplate": "/groups?id={id}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/auth/users?id={id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 50750
+        }
+      ],
+      "UpstreamPathTemplate": "/users?id={id}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/app/groups/",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 50730
+        }
+      ],
+      "UpstreamPathTemplate": "/groups/",
+      "UpstreamHttpMethod": [ "Get" ]
+    }
+
+  ]
+}

@@ -1,0 +1,22 @@
+.block__create__input{
+    margin-top: 20px;
+}
+.block__create__dataList{
+    margin-top: 20px;
+}
+.block__create__dataList input{
+    width: 100px;
+}
+.block__create__input{
+    width: 100px;
+}
+.block__create{
+    text-align: center;
+}
+.block__create__block__button{
+    
+    margin-top: 20px;
+}
+.block__create__block{
+    text-align: right;
+}

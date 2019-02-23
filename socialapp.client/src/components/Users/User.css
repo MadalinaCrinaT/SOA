@@ -1,0 +1,10 @@
+.block__user{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.block__userNameLabel{
+    padding-right: 10px;
+}
+.block__userName{
+    font-weight: bold;
+}

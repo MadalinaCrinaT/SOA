@@ -1,0 +1,38 @@
+.ReactModal__Content--after-open{
+    position: absolute !important;
+    top: 30% !important;
+    bottom: initial !important;
+    width: fit-content;
+    display: block;
+    margin: auto;
+    overflow: visible !important;
+}
+
+.block__modal .table__thead{
+    padding: 0;
+}
+.block__modal button{
+    padding: 0;
+    padding-left: 2px;;
+    padding-right: 2px;;
+}
+.block__modal table{
+    min-width: 300px;
+}
+
+.block__modal{
+    width: inherit;
+}
+
+.block__modal__button{
+    text-align: right;
+    padding-top: 20px;
+}
+
+.block__modal .table__tbody button{
+    padding: 0;
+}
+
+.block__modal .table__tbody{
+    max-height: 150px;
+}

@@ -1,0 +1,24 @@
+.header {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px ;
+    text-align: right;
+    margin: auto;
+    width: 60%;
+  }
+.header__link{
+    color: black;
+    text-decoration: initial;
+    margin-left: 30px;
+    font-size:25px;
+}
+.block__header{
+    width:100%;
+    background-color: lightblue;
+}
+.boldLink{
+    font-weight: bold !important;
+}
+.block__userName{
+    padding-right: 300px;
+}
