@@ -1,0 +1,66 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20180116120631_InitialCreate.cs" />
+    <Compile Remove="Migrations\20180117163616_Cascade.cs" />
+    <Compile Remove="Migrations\20180117163933_Cascade2.cs" />
+    <Compile Remove="Migrations\20180117164028_Cascade3.cs" />
+    <Compile Remove="Migrations\20180117164220_Cascade4.cs" />
+    <Compile Remove="Migrations\20180117164334_Cascade5.cs" />
+    <Compile Remove="Migrations\20180117164440_Cascade6.cs" />
+    <Compile Remove="Migrations\20180117165137_Cascade7.cs" />
+    <Compile Remove="Migrations\20180117165423_Cascade8.cs" />
+    <Compile Remove="Migrations\20180117165912_Cascade9.cs" />
+    <Compile Remove="Migrations\20180117170513_Cascade10.cs" />
+    <Compile Remove="Migrations\20180117171134_Cascade11.cs" />
+    <Compile Remove="Migrations\20180117171227_Cascade12.cs" />
+    <Compile Remove="Migrations\20180118121025_Cascade13.cs" />
+    <Compile Remove="Migrations\20180118121218_Cascade14.cs" />
+    <Compile Remove="Migrations\20180118121321_Cascade15.cs" />
+    <Compile Remove="Migrations\20180118125329_Cascade16.cs" />
+    <Compile Remove="Migrations\20180118130554_Cascade17.cs" />
+    <Compile Remove="Migrations\20180118133055_WithoutGroupPlan.cs" />
+    <Compile Remove="Migrations\20180118133237_WithoutGroupPla2.cs" />
+    <Compile Remove="Migrations\20180118162643_ChangeName.cs" />
+    <Compile Remove="Migrations\20180131160727_a.cs" />
+    <Compile Remove="Migrations\20180206125241_LocationNullableField.cs" />
+    <Compile Remove="Migrations\20180206125632_LocationNullableField2.cs" />
+    <Compile Remove="Migrations\20180215130156_DeletePlanActivityTable.cs" />
+    <Compile Remove="Migrations\20180215131207_DeletePlanActivityTable.cs" />
+    <Compile Remove="Migrations\20180215131935_DeletePlanActivityTable.cs" />
+    <Compile Remove="Migrations\20180215133649_AddFKPlanActivity.cs" />
+    <Compile Remove="Migrations\20180215133948_AddActivityIdColumnInPlans.cs" />
+    <Compile Remove="Migrations\20180327083037_Delete_GroupPlansTable.cs" />
+    <Compile Remove="Migrations\20180327084420_Delete_GroupPlansTable.cs" />
+    <Compile Remove="Migrations\20180327084704_Delete_GroupPlansTable.cs" />
+    <Compile Remove="Migrations\20180327085003_AddGroupIdInPlansTable.cs" />
+    <Compile Remove="Migrations\20180327132607_GroupPlanRelation.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SocialApp.Models\SocialApp.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>System</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>System.Data</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>System.Xml</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
