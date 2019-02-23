@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!-- meta charset="utf-8" /> -->
+    <title>Going Out App</title>
+</head>
+<body>
+    <div>
+        <h2>Username</h2>
+        <input type="text" id="userName" size="5" />
+        <input type="button" value="Search" onclick="find();" />
+        <p id="product" />
+    </div>
+
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+    <script>
+        var uri = 'api/auth2';
+
+        function find() {
+            var id = $('#userName').val();
+            $.getJSON(uri + '/' + id )
+                .done(function (data) {
+                    setCookie("username", data.UserName, 365);
+                    setCookie("id", data.UserId, 365);
+                    alert("Auth succedeed");
+                    document.location.href = "a.html";
+                })
+                .fail(function (jqXHR, textStatus, err) {
+                    $('#product').text('Error: ' + err);
+                });
+        }
+        function setCookie(cname, cvalue, exdays) {
+            var d = new Date();
+            d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+            var expires = "expires=" + d.toUTCString();
+            document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+        }
+    </script>
+</body>
+</html>

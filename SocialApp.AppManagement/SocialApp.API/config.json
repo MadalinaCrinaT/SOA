@@ -1,0 +1,3 @@
+﻿{
+  "connectionString": "Server=.;Database=SocialAppCoreData;Trusted_Connection=True;ConnectRetryCount=0"
+}
